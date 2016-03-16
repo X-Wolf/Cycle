@@ -5,7 +5,8 @@
  */
 
 /**
- *
+ *This class creates, if no parameters are mentioned a default of 100 for wheels
+ * and default of 1000 for weight. Uses 2 parameters given by user.
  * @author Xuaco
  */
 public class Cycle {
@@ -19,7 +20,7 @@ public class Cycle {
     public Cycle(){
         this(100, 1000);
     }
-    int getNumberOfWheels(){
+/*   int getNumberOfWheels(){
         return numberOfWheels;
     }
     int getWeight(){
@@ -31,6 +32,7 @@ public class Cycle {
     public void setWeight(int weight){
         this.weight = weight;
     }
+    */
     public String toString(){
         return this.numberOfWheels + " " + this.weight;
     }
