@@ -12,14 +12,12 @@ public class Cycle {
     private int numberOfWheels;
     private int weight;
     
-    public Cycle(){
-        
-        
-    }
-    
     Cycle(int numberOfWheels, int weight){
         this.numberOfWheels = numberOfWheels;
         this.weight = weight;
+    }
+    public Cycle(){
+        this(100, 1000);
     }
     int getNumberOfWheels(){
         return numberOfWheels;
@@ -33,8 +31,8 @@ public class Cycle {
     public void setWeight(int weight){
         this.weight = weight;
     }
-    String toString(){
-        System.out.println(numberOfWheels.toString());
+    public String toString(){
+        return this.numberOfWheels + " " + this.weight;
     }
     
             
