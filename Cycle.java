@@ -34,7 +34,7 @@ public class Cycle {
     }
     */
     public String toString(){
-        return this.numberOfWheels + " " + this.weight;
+        return this.numberOfWheels + " wheels and weighs " + this.weight + ".";
     }
     
             
