@@ -5,7 +5,10 @@
  */
 
 /**
- *
+ *Unit 3 Problem 3. This program creates a Cycle with a certain number of
+ * wheels and certain weight provided by initial inputs. Has default class
+ * constructor that creates 100 wheels and 1000 weight. Outputs properties of 
+ * Each Cycle created.
  * @author Xuaco
  */
 public class MainCycle {
