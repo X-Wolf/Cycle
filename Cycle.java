@@ -33,8 +33,8 @@ public class Cycle {
     public void setWeight(int weight){
         this.weight = weight;
     }
-    String toString(){
-        System.out.println(numberOfWheels.toString());
+    public String toString(){
+        return this.numberOfWheels + " " + this.weight;
     }
     
             
